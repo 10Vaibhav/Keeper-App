@@ -31,3 +31,7 @@ Keeper is a free note-taking application inspired by Google Keep, built with Rea
 ## Acknowledgements
 - Inspired by Google Keep
 - Built with love using React and Material-UI
+
+
+## 📄 License
+This repository is licensed under the [MIT License](LICENSE).
