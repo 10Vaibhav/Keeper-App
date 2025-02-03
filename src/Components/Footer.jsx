@@ -1,15 +1,10 @@
-import {useState, useEffect} from "react";
+function Footer(){
 
-export function Footer(){
-
-    const [currentYear, setCurrentYear] = useState(0);
-
-    useEffect(()=>{
-        setCurrentYear(new Date().getFullYear())
-    }, [])
+    const currentYear = new Date().getFullYear();
 
     return <footer>
         <p>Copyright © {currentYear}</p>
     </footer>
 }
 
+export default Footer;
