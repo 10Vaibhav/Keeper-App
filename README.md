@@ -15,7 +15,6 @@ Keeper is a free note-taking application inspired by Google Keep, built with Rea
 - **React**: A JavaScript library for building user interfaces
 - **Vite**: A build tool that provides a faster and leaner development experience
 - **Material-UI**: A popular React UI framework for building responsive applications
-- **ESLint**: A static code analysis tool for identifying problematic patterns in JavaScript code
 
 ## Usage
 
@@ -23,3 +22,10 @@ Keeper is a free note-taking application inspired by Google Keep, built with Rea
 - Enter a title and content for your note.
 - Click the delete icon to remove a note.
 
+## Contributing
+
+- Contributions are welcome! Please feel free to submit a pull request or open an issue.
+
+## Acknowledgements
+- Inspired by Google Keep
+- Built with love using React and Material-UI
