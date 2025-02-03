@@ -1,9 +1,15 @@
+import DeleteIcon from "@mui/icons-material/Delete";
+
 function Note(props){
 
-    return <div class={"note"}>
+    function handleDelete(){
+        props.onDelete(props.id);
+    }
+
+    return <div className={"note"}>
         <h1>{props.title}</h1>
         <p>{props.content}</p>
-        <button>DELETE</button>
+        <button onClick={handleDelete} > <DeleteIcon /> </button>
     </div>
 }
 
